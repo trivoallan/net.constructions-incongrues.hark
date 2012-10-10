@@ -13,17 +13,17 @@ class HarkCommand extends Command
     {
         $this
             ->setName('projects:bootstrap')
-            ->setDescription('Bootstrap projects')
+            ->setDescription('Bootstraps projects')
             ->addArgument(
-                'name',
+                'projectsDefinition',
                 InputArgument::OPTIONAL,
-                'Who do you want to greet?'
+                'Absolute path to YAML projects definition file'
             )
             ->addOption(
-               'yell',
+               'reload-data',
                null,
                InputOption::VALUE_NONE,
-               'If set, the task will yell in uppercase letters'
+               'Reload databases'
             )
         ;
     }

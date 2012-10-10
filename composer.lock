@@ -1,5 +1,5 @@
 {
-    "hash": "7027693ff5fbb95af70e6a0b43fc297c",
+    "hash": "9e1fd73e6bedb5296fa9c2ab1f3948b9",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -137,6 +137,53 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml",
+                "reference": "c02e2fbb794dae841d00765c37d66d9e9b6f40ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Yaml/zipball/c02e2fbb794dae841d00765c37d66d9e9b6f40ea",
+                "reference": "c02e2fbb794dae841d00765c37d66d9e9b6f40ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "1349363877",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com"
         }
     ],
     "packages-dev": null,
@@ -146,6 +193,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "symfony/console": 20,
-        "symfony/process": 20
+        "symfony/process": 20,
+        "symfony/yaml": 20
     }
 }
